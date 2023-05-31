@@ -5,4 +5,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Output GitHub context
-              run: echo "$GITHUB_WORKSPACE"
+              run: | 
+                echo "$GITHUB_WORKSPACE"
+                echo "There's the workspace ^"
